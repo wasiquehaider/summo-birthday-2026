@@ -14,9 +14,11 @@ export const metadata: Metadata = {
     title: "Something is coming... ♥",
     description: "Something is compiling for you. Come back at midnight.",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Something is coming" }],
+    url: "/",
+    siteName: "♥",
+    images: [{ url: "/og-v2.jpg", width: 1200, height: 630, alt: "Something is coming" }],
   },
-  twitter: { card: "summary_large_image", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", images: ["/og-v2.jpg"] },
   robots: { index: false, follow: false },
 };
 
